@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    font-family: 'Anton',sans-serif;
+
+}
+
+.header{
+    background:linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%), url('./assets/images/header.svg') ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-left: 213px;
+    padding-right: 215px;
+    padding-top: 58px;
+    padding: 38px 215px 0 213px;
+}
+
+.nav-link,.tel-section{
+    color:#fff;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color:#fff
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.header h3{
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header h1{
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 151px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.center button{
+    width: 199px;
+    background-color: transparent;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-color: #fff;
+    padding: 10px 18px;
+    
+}
+.center button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-bars{
+    color: #fff; 
+    font-size: 25px;
+}
+
+.offCanvas{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0,0);
+    width:0;
+    z-index: 9999;
+    overflow-x: hidden;
+ 
+
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+   
+}
+
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-xmark{
+    position:absolute;
+    right: 15px;
+    top: 10px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.aktiv{
+    width: 200px;
+}
+
+@media(max-width:1045px){
+
+
+
+    .bookticket{
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:946px){
+    .header{
+    padding: 18px 50px;
+}}
+
+.section{
+    padding:113px 216px;
+   
+}
+
+@media(max-width:721px){
+    .header h1{
+        font-size: 50px;
+        line-height: 80px;
+    }
+    .header h3{
+        font-size: 20px;
+
+    } 
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    
+  
+
+}
+.left-side{
+    padding-right:36px ;
+}
+
+.text{
+    padding-top: 58px;
+   
+}
+
+.text h4{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    padding-bottom: 19px;
+}
+
+.rightpic{
+    max-width: 570px;
+}
+
+.leftpic, .leftpic2{
+    max-width: 270px;
+    padding-top: 113px;
+}
+.leftpic{
+    margin-right: 36px;
+}
+
+.right-side img{
+    padding-top: 88px;
+}
+
+@media(max-width:1675px){
+    
+    .leftpic{
+        padding-top: 113px;
+    }
+}
+
+@media(max-width:1186px){
+     .rightpic{
+        max-width: 400px;
+     }
+}
+
+@media(max-width:1012px){
+    .section{
+        padding: 15px;
+    }
+}    
+
+@media (max-width:718px) {
+    .pic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftpic2{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .leftpic{
+        margin-right: 0;
+    }
+}
+
