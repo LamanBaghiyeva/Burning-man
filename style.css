@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 body{
-    font-family: 'Anton',sans-serif;
+    font-family: 'Anton',sans-serif !important;
 
 }
 
@@ -117,9 +117,6 @@ body{
 }
 
 @media(max-width:1045px){
-
-
-
     .bookticket{
         padding: 10px;
         font-size: 15px;
@@ -225,3 +222,22 @@ p{
     }
 }
 
+.footer{
+    display: flex;
+    padding: 144px 216px;
+}
+
+.footer p:nth-child(1){
+    margin:0 55px 0 0;
+}
+/* .pic img:nth-child(1) {
+    border: 16px solid red;
+} */
+
+@media(max-width:979px){
+    .footer{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    }
+}
